@@ -1,0 +1,81 @@
+a {
+  color:black;
+  text-decoration:none;
+}
+h1 {
+  font-size:70px; text-align:center;
+  border-bottom: solid 2px gray;
+  margin:0;
+  padding:50px;
+}
+#grid ol {
+border-right:solid 2px black;
+width:130px;
+margin:0;
+padding-left: 30px;
+padding-top: 10px;
+}
+
+#grid h3 {
+margin:0;
+padding:10px;
+}
+#grid {
+display:grid;
+grid-template-columns: 200px 1fr;
+}
+.body{
+padding-top: 15px;
+padding: 30px;
+font-size: 25px;
+}
+
+.video {
+  text-align:center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 25%;
+  padding: 40px;
+}
+
+#theoffice-grid {
+  display:grid;
+  grid-template-columns: 200px 400px;
+}
+
+.theoffice-body {
+  font-size:25px;
+filter: brightness(50%);
+}
+
+body {
+  background-color:#FFE4E1;
+}
+
+.container {
+  column-count:3;
+  column-gap:50px;
+  column-rule: solid 1.5px black;
+  column-width:50px;
+  font-size: 18px;
+
+
+
+#active {
+  color:#FF69B4;
+}
+
+p {
+  font-size:18px;
+}
