@@ -71,12 +71,16 @@ body {
   column-width:50px;
   font-size: 18px;
 
-
-
 #active {
   color:#FF69B4;
 }
 
 p {
   font-size:18px;
+}
+
+#links a {
+  color:#0000CD;
+  text-decoration: underline;
+
 }
