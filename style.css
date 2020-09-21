@@ -4,7 +4,7 @@ a {
 }
 h1 {
   font-size:70px; text-align:center;
-  border-bottom: solid 2px gray;
+  border-bottom: solid 2px black;
   margin:0;
   padding:50px;
 }
@@ -61,6 +61,7 @@ filter: brightness(50%);
 
 body {
   background-color:#FFE4E1;
+  font-family: 'Nanum Gothic', sans-serif;
 }
 
 .container {
